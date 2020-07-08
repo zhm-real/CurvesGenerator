@@ -7,8 +7,13 @@ import draw
 
 def main():
     # choose states pairs: (x, y, yaw)
-    states = [(0, 0, 0), (10, 10, -90), (20, 5, 60), (30, 10, 120),
-              (35, -5, 30), (25, -10, -120), (15, -15, 100), (0, -10, -90)]
+    # simulation-1
+    # states = [(0, 0, 0), (10, 10, -90), (20, 5, 60), (30, 10, 120),
+    #           (35, -5, 30), (25, -10, -120), (15, -15, 100), (0, -10, -90)]
+
+    # simulation-2
+    states = [(-3, 3, 120), (10, -7, 30), (10, 13, 30), (20, 5, -25),
+              (35, 10, 180), (32, -10, 180), (5, -12, 90)]
 
     max_c = 0.1                         # max curvature
     path_x, path_y, yaw = [], [], []
@@ -43,6 +48,7 @@ def main():
 
         plt.axis("equal")
         plt.title("Simulation of Reeds-Shepp Curves")
+        plt.axis([-10, 42, -20, 20])
         plt.draw()
         plt.pause(0.001)
 
