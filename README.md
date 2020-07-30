@@ -22,6 +22,16 @@ This repository concludes some common used curves or polynomials on path plannin
 </table>
 </div>
 
+## Bezier Path
+<div align=right>
+<table>
+  <tr>
+    <td><img src="https://github.com/zhm-real/CurvesGenerator/blob/master/gif/cubicbezierdemo.gif" alt="rs1" width="400"/></a></td>
+    <td><img src="https://github.com/zhm-real/CurvesGenerator/blob/master/gif/bezier.gif" alt="rs2" width="400"/></a></td>
+  </tr>
+</table>
+</div>
+
 ## Reference
 * [Paper: ](https://projecteuclid.org/download/pdf_1/euclid.pjm/1102645450) Optimal paths for a car that goes both forwards and backwards, by J. A. REEDS & L. A. SHEPP.
 * [Adapted Paper: ](http://msl.cs.uiuc.edu/~lavalle/cs326a/rs.c) Some typos in the paper adapted.
