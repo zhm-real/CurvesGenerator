@@ -6,8 +6,7 @@ import math
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy.spatial.transform import Rotation as Rot
-
-from CurvesGenerator import draw
+import draw
 
 
 # class for PATH element
