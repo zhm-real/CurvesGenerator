@@ -133,6 +133,7 @@ def simulation():
         draw.Car(gx, gy, gyaw, 1.5, 3)
         draw.Car(path.x[i], path.y[i], path.yaw[i], 1.5, 3)
         plt.title("Quintic Polynomial Curves")
+        plt.grid(True)
         plt.pause(0.001)
 
     plt.show()
