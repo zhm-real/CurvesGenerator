@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eebd28f3-5616-493e-8409-aa1effd0f4ff" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cubic_spline.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dubins_path.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quartic_polynomial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quintic_polynomial.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reeds_shepp.py" beforeDir="false" afterPath="$PROJECT_DIR$/reeds_shepp.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,49 +43,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.simulation">
-    <configuration name="draft (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="ReedsSheppCurves" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/draft.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="draft" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="ReedsSheppCurves" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\Huiming Zhou\Desktop\ReedsSheppCurves\draw.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.quintic_polynomial">
     <configuration name="draw" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ReedsSheppCurves" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -102,6 +57,48 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/draw.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="quintic_polynomial" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ReedsSheppCurves" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/quintic_polynomial.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="reeds_shepp" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ReedsSheppCurves" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/reeds_shepp.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -148,18 +145,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.draw" />
-      <item itemvalue="Python.draft" />
-      <item itemvalue="Python.draft (1)" />
       <item itemvalue="Python.simulation" />
       <item itemvalue="Python tests.pytest for reeds_shepp.test" />
+      <item itemvalue="Python.reeds_shepp" />
+      <item itemvalue="Python.quintic_polynomial" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.quintic_polynomial" />
+        <item itemvalue="Python.reeds_shepp" />
         <item itemvalue="Python.simulation" />
         <item itemvalue="Python.draw" />
         <item itemvalue="Python tests.pytest for reeds_shepp.test" />
-        <item itemvalue="Python.draft (1)" />
-        <item itemvalue="Python.draft" />
       </list>
     </recent_temporary>
   </component>
