@@ -1,8 +1,18 @@
-# ReedsSheppCurves
+# CurvesGenerator
 ## Overview
-Reeds-Shepp Curve is used to calculate the optimal traveling path of the Reeds-Shepp Car, a car that can go both forward and backward with a limited turning radius. This project provides source code for generating reeds-shepp curves and demos to show how to use it.
+This repository concludes some common used curves or polynomials on path planning.
 
-## Simulation
+## Dubins Path
+<div align=right>
+<table>
+  <tr>
+    <td><img src="https://github.com/zhm-real/ReedsSheppCurves/blob/master/gif/dubins1.gif" alt="rs1" width="400"/></a></td>
+    <td><img src="https://github.com/zhm-real/ReedsSheppCurves/blob/master/gif/dubins2.gif" alt="rs2" width="400"/></a></td>
+  </tr>
+</table>
+</div>
+
+## Reeds-Shepp Path
 <div align=right>
 <table>
   <tr>
