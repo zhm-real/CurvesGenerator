@@ -281,14 +281,14 @@ def calc_dubins_path(sx, sy, syaw, gx, gy, gyaw, curv, step_size=0.1):
     gx = gx - sx
     gy = gy - sy
 
-    l_rot = Rot.from_euler('z', syaw).as_dcm()[0:2, 0:2]
+    l_rot = Rot.from_euler('z', syaw).as_matrix()[0:2, 0:2]
     le_xy = np.stack([gx, gy]).T @ l_rot
     le_yaw = gyaw - syaw
 
     lp_x, lp_y, lp_yaw, mode, lengths = planning_from_origin(
         le_xy[0], le_xy[1], le_yaw, curv, step_size)
 
-    rot = Rot.from_euler('z', -syaw).as_dcm()[0:2, 0:2]
+    rot = Rot.from_euler('z', -syaw).as_matrix()[0:2, 0:2]
     converted_xy = np.stack([lp_x, lp_y]).T @ rot
     x_list = converted_xy[:, 0] + sx
     y_list = converted_xy[:, 1] + sy
